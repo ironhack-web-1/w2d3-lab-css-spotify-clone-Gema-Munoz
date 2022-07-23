@@ -24,13 +24,63 @@ header {
     background-color: #fff;
   }
 
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
   }
-   
-  .spotify-logo img{
+  
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+nav li {
+    padding: 10px;
+    font-size: 22px;
+  }
+
+
+nav ul a {
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+
+
+.spotify-logo img{
     height: 50px;
   }
+
+  #landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #landing img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .text h1{
+    text-align: center;
+    font-size: 85px;
+  }
+  
+  .text p{
+    text-align: center;
+    font-size: 25px;
+  }
+    
