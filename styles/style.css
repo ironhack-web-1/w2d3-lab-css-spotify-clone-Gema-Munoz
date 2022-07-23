@@ -76,11 +76,56 @@ nav ul a {
 
   .text h1{
     text-align: center;
-    font-size: 85px;
+    font-size: 80px;
   }
   
   .text p{
+   
     text-align: center;
     font-size: 25px;
   }
     
+  #wos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+ .icons > p{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    
+ }
+
+
+  .icon img{
+    width: 25%;
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+   
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon h3{
+    padding-top: 3%;
+    font-size: 20px;
+    color: #00B172;
+  }
+.icon p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.icons{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
