@@ -142,7 +142,7 @@ nav ul a {
 
 #last > img{
     width: 6%;
-    
+    margin-right: 5%;
     
 }
 
@@ -163,6 +163,7 @@ nav ul a {
 
 
 }
+
 
 #last .discover h2{
  font-size: 30px;
